@@ -1,14 +1,10 @@
-import PlayWithButton from "./components/PlayWithButton";
+import APIFetch from "./components/APIFetch";
 
 function App() {
   return (
-    <>
-      {/* <Alert color="info" />
-      <Button handleClick={handleClick} color="info">
-        My Button
-      </Button> */}
-      <PlayWithButton />
-    </>
+    <div className="m-5">
+      <APIFetch />
+    </div>
   );
 }
 
