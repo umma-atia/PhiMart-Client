@@ -1,9 +1,9 @@
-import APIFetch from "./components/APIFetch";
+import CartApp from "./cart/CartApp";
 
 function App() {
   return (
     <div className="m-5">
-      <APIFetch />
+      <CartApp />
     </div>
   );
 }
